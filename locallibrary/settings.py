@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-n1834nxl7f#cy@
 # DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = ['fathomless-badlands-00765.herokuapp.com',]
+ALLOWED_HOSTS = []
 
 
 # Application definition
